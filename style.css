@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+
+@font-face {
+    font-family: 'Noto Sans KR'
+    ;font-style: normal;
+    font-weight: 900;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
+}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #5C5C5B;
+}
+
+html { 
+  scroll-behavior: smooth; 
+} 
+
+body{
+    width: 1920px;
+    background-color: #ffffff;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    height: 64px;
+    width: 1920px;
+    position: fixed;
+    background-color: #ffffff;
+    opacity: 0.85;
+    z-index: 1;
+}
+
+.top{
+    height: 64px;
+    width: 1920px;
+}
+
+.logo{
+    float: left;
+    height: 64px;
+    width: 138px;
+    margin-left: 46px;
+    margin-top: 22px;
+}
+
+.menu{
+    float: left;
+    height: 64px;
+    width: 1100px;
+
+}
+
+.navi{
+    float: left;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.navi>li{
+    float: left;
+}
+
+.navi>li>a{
+    height: 26px;
+    width: 67px;
+    padding-left: 116px;
+    font-weight: 900;
+    font-family: "Noto Sans KR";
+    transform : rotate(0.04deg); 
+    font-size: 18px;
+}
+
+.navi>li>a:hover{
+    color: #46AB5F;
+}
+
+.lang{
+    float: right;
+    height: 64px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.bodywrap{
+    height: 5841px;
+    width: 1920px;
+}
+
+.imgslide{
+    float: left;
+    height: 950px;
+    width: 1920px;
+    position: relative;
+    overflow: hidden;
+    background-color: #46AB5F;
+}
+
+.imgslide>a{
+    display: block;
+    position: absolute;
+    left: -0.5%;
+    top: -2%;
+}
+
+.slidetext{
+    height: 244px;
+    width: 555px;
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 100px;
+    left: 5%;
+    top: 50%;
+    font-size: 88.72px;
+}
+
+.download{
+    height: 130px;
+    width: 150px;
+    left: 5%;
+    top: 75%;
+    position: absolute;
+}
+
+.button li{
+    float: left;
+    position: relative;
+    width: 60px;
+    height: 58px;
+    background-color: #ffffff;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #898989;
+}
+
+.button li:hover{
+    background-color: #46AB5F;
+}
+
+.button li>a{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.google img{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.apple img{
+    margin-left: 1px;
+    margin-top: 2.5px;
+}
+
+.button img:hover{
+    filter: brightness(500%);
+}
+
+
+.green{
+    color: #46AB5F;
+}
+
+.intro{
+    float: left;
+    height: 811px;
+    width: 1920px;
+}
+
+.logo2{
+    float: left;
+    width: 1920px;
+    height: 322.54;
+    margin-top: 152px;
+    text-align: center;
+}
+
+.introText{
+    float: left;
+    width: 1920px;
+    margin-top: 51.46px;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #5C5C5B;
+    transform : rotate(0.04deg); 
+}
+
+.main{
+    height: 1967px;
+    width: 1920px;
+}
+
+.gif1{
+    position: absolute;
+    margin-left: 1562px;
+    margin-top: 1826px;
+}
+
+.gif1 img{
+    width: 224px;
+    height: 454px;
+}
+
+.gif2{
+    position: absolute;
+    margin-left: 103px;
+    margin-top: 2906px;
+}
+
+.gif2 img{
+    width: 224px;
+    height: 454px;
+}
+
+.main1{
+    float: right;
+    height: 1051px;
+    width: 1920px;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.main1 img{
+    float: right;
+}
+
+.main1text{
+    float: right;
+    width: 456px;
+    height: 300px;
+    margin-right: 96px;
+    margin-top: 81px;
+}
+
+.text{
+    float: right;
+    width: 550px;
+    padding-top: 50px;
+    font-size: 26px;
+    line-height: 38px;
+    color: #898989;
+}
+
+.main2{
+    float: left;
+    height: 916px;
+    width: 1920px;
+    margin-left: 253px;
+}
+
+.main2 img{
+    float: left;
+}
+
+.main2text{
+    float: left;
+    width: 456px;
+    height: 300px;
+    margin-left: 94px;
+    margin-top: 81px;
+}
+
+.text2{
+    float: left;
+    width: 550px;
+    padding-top: 50px;
+    font-size: 26px;
+    line-height: 38px;
+    color: #898989;
+}
+
+.other{
+    height: 2121px;
+    width: 1920px;
+}
+
+.title3{
+    float: left;
+    height: 74px;
+    width: 1920px;
+    text-align: center;
+}
+
+.mockup{
+    float: left;
+    height: 2047px;
+    width: 1920px;
+}
+
+.mockup1{
+    float: left;
+    height: 867px;
+    width: 1920px;
+
+    margin-top: 64px;
+}
+
+.mockup1 img{
+    margin-left: 300px;
+}
+
+.othertext{
+    margin-left: 150px;
+    margin-right: 255px;
+}
+
+.mockup1 li{
+    float: left;
+    width: 400px;
+    padding-left: 0px;
+    text-align: center;
+    margin-left: 105px;
+}
+
+.othertext li{
+    font-size: 24px;
+    font-weight: 700;
+    color: #46AB5F;
+    line-height: 29px;
+}
+
+.text3{
+    font-size: 18px;
+    color: #898989;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.mockup2{
+    float: left;
+    height: 1180px;
+    width: 1920px;
+}
+
+.mockup2 img{
+    margin-left: 580px;
+}
+
+.othertext2{
+    margin-left: 443px;
+}
+
+.mockup2 li{
+    float: left;
+    width: 440px;
+    padding-left: 0px;
+    text-align: center;
+    margin-left: 61px;
+}
+
+.othertext2 li{
+    font-size: 24px;
+    font-weight: 700;
+    color: #46AB5F;
+    line-height: 29px;
+}
+
+footer{
+    height: 1088px;
+    width: 1920px;
+}
+
+.char{
+    height: 751px;
+    width: 1920px;
+    text-align: center;
+}
+
+.shortcut{
+    float: left;
+    height: 49.57px;
+    width: 1920px;
+}
+
+.shortcut ul{
+    margin-left: 530.45px;
+}
+
+.shortcut li{
+    float: left;
+    margin-left: 35px;
+}
+
+.bg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 3479px;
+}
+
+.footerbg{
+    position: absolute;
+    z-index: -1;
+    top: 5977px;
+}
+
+.mail{
+    position: fixed;
+    bottom: 0%;
+    float: left;
+    background-color: #88c49c;
+    width: 1920px;
+    height: 30px;
+    font-weight: 900;
+    font-size: 8px;
+
+}
+
+.mail>a{
+    margin-top: 7px;
+    padding-left: 10px;
+    text-align: center;
+}
